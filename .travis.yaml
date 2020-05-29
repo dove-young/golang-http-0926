@@ -5,3 +5,9 @@ go:
 
 script:
 - make build
+
+# safelist
+branches:
+  only:
+  - master
+  - stable
